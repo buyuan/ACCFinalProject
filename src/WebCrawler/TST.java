@@ -349,7 +349,7 @@ public class TST<Value> {
         
         }
         // loop to either continue searching or exit
-        System.out.println("Do you want to continue searching ? (yes/no)");
+        System.out.println("Do you want to continue searching ? Type 'no' to exit.");
         Scanner sc2= new Scanner(System.in);
         String output= sc2.nextLine();
         if(output.equals("no")) {
