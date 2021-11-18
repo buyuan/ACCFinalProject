@@ -14,7 +14,9 @@ A search engine is a software deployed typically on the web to perform searches 
 
 ## Deployment
 
-To deploy this project import it in the Eclipse IDE and run TST.java to start the search engine.
+- To deploy this project import it in the Eclipse IDE and run TST.java to start the search engine.
+- Before running TST.java make sure that the path from which text files are read (check variable file and file2) is updated to the local path of the system.
+- Check Attribute.java and update the output path to the local path of the system if you want to crawl other websites.
 
 
 
